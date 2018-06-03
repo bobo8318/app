@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pub.imba.www.imbabuy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_est" />
+        <activity android:name=".MyViewTest" />
+
+        <service android:name=".MyService" />
+        <service android:name="pub.imba.www.service.MusicService" />
+        <!--
+        android:process=":remote" specify this service run in
+        another process in the same application.>
+        <service android:name=".RemoteService" android:process=":remote"></service>
+        -->
+        <activity android:name=".SensorActivity" />
+        <activity
+            android:name="pub.imba.www.PositionMsg.PositionActivity"
+            android:label="@string/title_activity_position"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.openui.www.imbatao.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent" >
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionSearch"
+            app:defaultQueryHint="搜索" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <cn.openui.www.imbatao.customview.MyFreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/action_fresh">
+
+    <cn.openui.www.imbatao.customview.StaggeredGridView
+        android:id="@+id/staggeredGridView"
+        app:numColumns="2"
+        app:drawSelectorOnTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </cn.openui.www.imbatao.customview.MyFreshLayout>
+
+</RelativeLayout>

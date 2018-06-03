@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="SmallGreyTextView">gray</style>
+
+    <style name = "AppTheme"  parent  ="AppTheme.Base">
+    </style>
+
+    <style name = "AppTheme.Base"  parent = "Theme.AppCompat">
+        <item name = "windowActionBar">false</item>
+        <item name = "windowNoTitle">true</item>
+    </style>
+
+
+</resources>

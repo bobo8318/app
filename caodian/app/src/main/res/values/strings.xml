@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">caodian</string>
+    <string name="username">name</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="addTopic">吐槽</string>
+    <string name="common">一般决策</string>
+    <string name="middle">中级决策</string>
+    <string name="high">高级决策</string>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <declare-styleable name="MyBar">
+        <attr name="grapTitle" format="string"></attr>
+        <attr name="xAxisName" format="string"></attr>
+        <attr name="yAxisName" format="string"></attr>
+        <attr name="axisTextSize" format="dimension|integer"></attr>
+        <attr name="axisTextColor" format="color|integer"></attr>
+        <attr name="orientation" format="string"></attr>
+        <attr name="blankwidth" format="dimension|integer"></attr>
+        <attr name="ceilwidth" format="dimension|integer"></attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/v4_drawerlayout"
+    tools:context=".ConferenceActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <cn.openui.www.positionmsg.view.OpenTitle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3265da"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:id="@+id/pcs_title"
+            app:title_info="请选择派出所"
+            app:right_info="修改"
+            android:layout_alignParentTop="true"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_content"
+            android:layout_marginTop="50dp"
+            >
+        </FrameLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#dfd0d0"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottom_btn"
+            >
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:background="#f1dfdf"
+                android:text="照片"
+                android:id="@+id/conference_photo"
+                />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:background="#f1dfdf"
+                android:gravity="center"
+                android:text="说明"
+                android:id="@+id/conference_info"
+                />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:background="#f1dfdf"
+                android:gravity="center"
+                android:text="电话"
+                android:id="@+id/conference_phone"
+                />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#0952fd"
+            android:text="派出所"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+        <cn.openui.www.positionmsg.view.FlowLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pcs_selected">
+        </cn.openui.www.positionmsg.view.FlowLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#0952fd"
+            android:text="分局会议室"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

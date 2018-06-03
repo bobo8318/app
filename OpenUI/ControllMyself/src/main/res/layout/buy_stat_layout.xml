@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+<cn.openui.www.controllmyself.customView.MySwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/statFresh"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:padding="10sp"
+            android:id="@+id/stat_type_group"
+            >
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/statTypeButton"
+                android:id="@+id/stat_type_all"
+                android:text="全部"
+                />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/statTypeButton"
+                android:id="@+id/stat_type_football"
+                android:text="足球"
+                />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/statTypeButton"
+                android:id="@+id/stat_type_basketball"
+                android:text="篮球"
+                />
+        </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日统计"
+            style="@style/statTitleText"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="投入：赢得：盈亏："
+            style="@style/statContentText"
+            android:id="@+id/stat_today"
+            />
+
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1b1a1a"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本周统计"
+                style="@style/statTitleText"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="投入：赢得：盈亏："
+                style="@style/statContentText"
+                android:id="@+id/stat_week"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1b1a1a"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本月统计"
+            style="@style/statTitleText"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="投入：赢得：盈亏："
+                style="@style/statContentText"
+                android:id="@+id/stat_month"
+                />
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1b1a1a"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年度统计"
+            style="@style/statTitleText"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="投入：赢得：盈亏："
+                style="@style/statContentText"
+                android:id="@+id/stat_year"
+                />
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</cn.openui.www.controllmyself.customView.MySwipeRefreshLayout>
+</LinearLayout>

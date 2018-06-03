@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="openTitle">
+
+        <attr name="title_background" format="reference|color"></attr>
+
+        <attr name="title_info" format="string"></attr>
+        <attr name="left_info" format="string"></attr>
+        <attr name="right_info" format="string"></attr>
+
+        <attr name="left_background" format="color|reference"></attr>
+        <attr name="right_background" format="color|reference"></attr>
+
+        <attr name="title_left_show" format="boolean"></attr>
+        <attr name="title_right_show" format="boolean"></attr>
+
+    </declare-styleable>
+
+</resources>

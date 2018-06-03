@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">时间规划局</string>
+    <string name="title_activity_show_type">ShowType</string>
+    <string name="today">今日：</string>
+    <string name="btn_add_type">添加</string>
+    <string name="action_add">+</string>
+</resources>

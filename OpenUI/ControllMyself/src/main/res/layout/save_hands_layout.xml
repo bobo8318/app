@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+
+        >
+    <EditText
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:id="@+id/limit_date"
+        android:hint="日线"
+        />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:orientation="horizontal"
+            android:id="@+id/limit_dateType"
+            android:layout_marginLeft="20sp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:id="@+id/limit_date_lose"
+                android:checked="true"
+                android:text="亏"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:id="@+id/limit_date_win"
+                android:text="赢"
+                />
+        </RadioGroup>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:id="@+id/limit_date_on"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20sp"
+            android:text="启用"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:id="@+id/limit_week"
+            android:hint="周线"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:orientation="horizontal"
+            android:id="@+id/limit_weekType"
+            android:layout_marginLeft="20sp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:id="@+id/limit_week_lose"
+                android:checked="true"
+                android:text="亏"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:id="@+id/limit_week_win"
+                android:text="赢"
+                />
+        </RadioGroup>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:id="@+id/limit_week_on"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20sp"
+            android:text="启用"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:id="@+id/limit_month"
+            android:hint="月线"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:orientation="horizontal"
+            android:id="@+id/limit_monthType"
+            android:layout_marginLeft="20sp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:id="@+id/limit_month_lose"
+                android:checked="true"
+                android:text="亏"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:id="@+id/limit_month_win"
+                android:text="赢"
+                />
+        </RadioGroup>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:id="@+id/limit_month_on"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20sp"
+            android:text="启用"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="保    存"
+        android:layout_gravity="center_horizontal"
+        android:background="#4a83c4"
+        android:layout_alignParentBottom="true"
+        android:textSize="24sp"
+        android:id="@+id/limit_save"
+        />
+</RelativeLayout>

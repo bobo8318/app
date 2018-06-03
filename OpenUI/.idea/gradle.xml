@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\androidStudioNew\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ControllMyself" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/cp100" />
+            <option value="$PROJECT_DIR$/imbatao" />
+            <option value="$PROJECT_DIR$/mytime" />
+            <option value="$PROJECT_DIR$/positionmsg" />
+            <option value="$PROJECT_DIR$/zXingProj" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ControllMyself" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/cp100" />
+            <option value="$PROJECT_DIR$/imbatao" />
+            <option value="$PROJECT_DIR$/mytime" />
+            <option value="$PROJECT_DIR$/positionmsg" />
+            <option value="$PROJECT_DIR$/zXingProj" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

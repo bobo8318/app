@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "cn.openui.www.controllmyself"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.41'
+    compile 'com.facebook.stetho:stetho:1.3.1'
+    //If you want to add a network helper
+    compile 'com.facebook.stetho:stetho-okhttp3:1.3.1'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.11'
+
+}

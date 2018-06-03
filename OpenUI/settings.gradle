@@ -1,0 +1,2 @@
+include ':app', ':positionmsg', ':cp100', ':mytime', ':ControllMyself', ':imbatao'
+include ':zXingProj'

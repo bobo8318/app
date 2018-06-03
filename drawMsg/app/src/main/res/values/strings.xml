@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">drawMsg</string>
+    <string name="clear">清除</string>
+    <string name="save">保存</string>
+</resources>

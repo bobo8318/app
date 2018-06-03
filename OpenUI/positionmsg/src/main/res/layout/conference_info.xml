@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3265da"
+    android:textColor="#FFFFFF"
+    android:textSize="18dp"
+    android:id="@+id/pcs_title"
+    android:text="请选择派出所"
+    />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img_content"
+            android:orientation="horizontal"
+            >
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#dfd0d0"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical"
+            android:background="@drawable/button_3"
+            android:text="照片"
+            android:id="@+id/conference_photo"
+            />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/button_3"
+            android:gravity="center_vertical"
+            android:text="说明"
+            android:id="@+id/conference_info"
+            />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/button_3"
+            android:gravity="center_vertical"
+            android:text="联系电话"
+            android:id="@+id/conference_phone"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>

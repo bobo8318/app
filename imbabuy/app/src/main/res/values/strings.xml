@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">imbabuy</string>
+    <string name="notice">imbabuy</string>
+    <string name="loading">加载中...</string>
+    <string name="title_activity_est">est</string>
+    <string name="title_activity_position">PositionActivity</string>
+</resources>

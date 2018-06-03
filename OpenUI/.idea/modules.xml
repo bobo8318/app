@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ControllMyself/ControllMyself.iml" filepath="$PROJECT_DIR$/ControllMyself/ControllMyself.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenUI.iml" filepath="$PROJECT_DIR$/OpenUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cp100/cp100.iml" filepath="$PROJECT_DIR$/cp100/cp100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imbatao/imbatao.iml" filepath="$PROJECT_DIR$/imbatao/imbatao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytime/mytime.iml" filepath="$PROJECT_DIR$/mytime/mytime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/positionmsg/positionmsg.iml" filepath="$PROJECT_DIR$/positionmsg/positionmsg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zXingProj/zXingProj.iml" filepath="$PROJECT_DIR$/zXingProj/zXingProj.iml" />
+    </modules>
+  </component>
+</project>
